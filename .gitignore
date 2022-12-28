@@ -1,0 +1,33 @@
+# use glob syntax.
+syntax: glob
+
+# VFP generated files
+*.err
+*.ERR
+
+# VFP compiled files
+*.fxp
+*.FXP
+
+# VFP backup files
+*.bak
+*.BAK
+*.tbk
+*.TBK
+
+# Misc backup files
+*.orig
+*.ORIG
+*.save
+*.SAVE
+*.zip
+*.ZIP
+
+# Specific files and folders
+
+CONVERTEDDATA
+LOGS
+Source
+TestData
+tablebuilder.PJ?
+Upsizer.pj?
